@@ -119,9 +119,10 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 function getFlavorByIndex(array, index) {
-
+  return array[index]
 }
 
+console.log(getFlavorByIndex(originalFlavors, 2));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, 
